@@ -106,5 +106,5 @@ melted_required_dataset <- melt(required_dataset, rowlabels = c("Subject_ID", "A
 cast_dataframe <- dcast(melted_required_dataset, Subject_ID + Activity ~ variable, mean)
  
 # Save to disk as the second tidy data set
-write.csv(cast_dataframe, "./GettingandCleaningData_Project_TidyData2.csv")
+write.table(cast_dataframe, "./GettingandCleaningData_Project_TidyData2.txt", sep=",", row.names=FALSE)
 # END OF PART V

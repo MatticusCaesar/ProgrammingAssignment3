@@ -14,6 +14,7 @@ CodeBook.md - metadata about the project data.
 
 README.md - this file you are reading now.
 
+###Other Notes:
 The script was written in R 3.1.1 using RStudio running on Windows 8.1 Pro
 It assumes that the following packages are installed:
 
